@@ -1,0 +1,5 @@
+no1= input("Enter first number: ")
+no2= input("Enter second number: ")
+no3= input("Enter third number: ")
+result= (float(no1) * float(no2)) + float(no3)
+print(result)
