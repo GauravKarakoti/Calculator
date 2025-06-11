@@ -1,5 +1,14 @@
-no1= input("Enter first number: ")
-no2= input("Enter second number: ")
-no3= input("Enter third number: ")
-result= (float(no1) * float(no2)) + float(no3)
-print(result)
+no1= float(input("Enter first number: "))
+no2= float(input("Enter second number: "))
+op= input("Enter operator: ")
+
+if op== '+':
+   print(no1 + no2)
+elif op== '-':
+   print(no1 - no2)
+elif op== '*':
+   print(no1 * no2)
+elif op== '/':
+   print(no1 / no2)
+else:
+   print("Invalid operator")
